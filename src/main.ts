@@ -12,6 +12,6 @@ async function bootstrap() {
   });
 
   await app.listen(process.env.PORT ?? 3001);
-  console.log(`Corriendo en http://localhost:3001`);
+  console.log(`Corriendo APP en el puerto ${process.env.PORT ?? 3001}`);
 }
 bootstrap();

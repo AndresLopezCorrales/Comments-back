@@ -18,7 +18,7 @@ import { Comment } from './comments/comments.entity';
       type: 'sqlite',
       database: 'db.sqlite',
       entities: [User, Comment],
-      synchronize: true, // SOLO dev
+      synchronize: false, // True DEV y False PROD
     }),
 
     UsersModule,
