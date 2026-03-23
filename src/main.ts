@@ -6,7 +6,7 @@ async function bootstrap() {
 
   // Habilitar CORS para el frontend
   app.enableCors({
-    origin: '*',
+    origin: 'https://wallappfront.netlify.app/', //*
     methods: 'GET,POST,DELETE',
     allowedHeaders: 'Content-Type,Authorization',
   });
