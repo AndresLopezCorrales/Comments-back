@@ -30,14 +30,14 @@ La API estará disponible en `http://localhost:3001`.
 
 ## Endpoints
 
-- AUTH
-  POST (register): /auth/register
-  POST (login): /auth/login
+- AUTH:
+- POST (register): /auth/register
+- POST (login): /auth/login
 
-- COMMENTS
-  GET (all comments): /comments
-  POST (create comment): /comments
-  DELETE (delete comment): /comments/:id
+- COMMENTS:
+- GET (all comments): /comments
+- POST (create comment): /comments
+- DELETE (delete comment): /comments/:id
 
 ## Deploy en Railway
 
